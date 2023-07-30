@@ -22,6 +22,7 @@ function Todo() {
   return (
     <div>
       <h1>{todo.title}</h1>
+      <div class="todo">{todo.description}</div>
     </div>
   );
 }
